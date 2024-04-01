@@ -1,0 +1,43 @@
+{
+    "carriers": [{
+        "id": 1,
+        "name": "Transit Logistics",
+        "rating": 4.5,
+        "onTimeDeliveryPercentage": 0.9,
+        "cost": 1200,
+        "specialRequirements": ["Refrigerated"],
+        "availability": true
+    }, {
+        "id": 2,
+        "name": "FastTrack Shipping",
+        "rating": 4.7,
+        "onTimeDeliveryPercentage": 0.2,
+        "cost": 1500,
+        "specialRequirements": [],
+        "availability": false
+    }, {
+        "id": 3,
+        "name": "Reliable Transport",
+        "rating": 4.2,
+        "onTimeDeliveryPercentage": 0.4,
+        "cost": 1000,
+        "specialRequirements": ["Hazardous Materials"],
+        "availability": true
+    }, {
+        "id": 4,
+        "name": "Eco Freight",
+        "rating": 4.8,
+        "onTimeDeliveryPercentage": 0.8,
+        "cost": 1300,
+        "specialRequirements": ["Eco-Friendly"],
+        "availability": true
+    }, {
+        "id": 5,
+        "name": "Budget Haulers",
+        "rating": 4,
+        "onTimeDeliveryPercentage": 0.7,
+        "cost": 900,
+        "specialRequirements": ["Oversized Loads"],
+        "availability": false
+    }]
+}
