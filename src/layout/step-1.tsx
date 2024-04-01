@@ -84,7 +84,7 @@ export default function Step1({ data, appState, setAppState }: Step1PropType) {
         <span>
           Rating{" "}
           <span className="text-blue-400">
-            {"  "} - {appState.rating}
+            {"  "} - {appState.rating || 1}
           </span>
         </span>
       ),
